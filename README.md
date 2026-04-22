@@ -1,4 +1,5 @@
 5
+```cpp
 template<typename T>
 class BinaryTree {
 private:
@@ -24,10 +25,11 @@ public:
     int size() const { return sizeHelper(root); }
     bool contains(T value) const { return containsHelper(root, value); }
 };
-
+```
 
 
 9
+```cpp
 // In-order traversal iteratívne
 vector<T> inorder(TreeNode<T>* root) {
     vector<T> result;
@@ -52,3 +54,4 @@ vector<T> inorder(TreeNode<T>* root) {
 
     return result;
 }
+```
